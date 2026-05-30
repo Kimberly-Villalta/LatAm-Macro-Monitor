@@ -1,6 +1,6 @@
 # LatAm-Macro-Monitor
 
-Live dashboard tracking FX, rates, inflation, and sovereign risk across Brazil, Mexico, Colombia, and Chile. The live version is here: [] It's what I link from my market commentary and drop on applications.
+Live dashboard tracking FX, rates, inflation, and sovereign risk across Brazil, Mexico, Colombia, and Chile. The live version: https://latam-macro-monitor.streamlit.app. It's what I link from my market commentary and drop on applications.
 
 Everything runs on free data. FX, the bond ETFs, and the equity indices come from Yahoo Finance. Brazil's Selic rate and IPCA inflation pull from the central bank's SGS API, which is open and needs no key. The other three countries' rates and inflation are next on my list once I wire in FRED.
 
