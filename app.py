@@ -214,7 +214,7 @@ for (country, meta), col in zip(COUNTRIES.items(), fx_cols):
         if latest is not None:
             st.metric(
                 f"{meta['flag']} {country} (USD/{meta['code']})",
-                f"{latest:,.3f}",
+                f"{latest:,.2f}",
                 f"{daily:+.2f}% d/d" if daily is not None else "n/a",
                 delta_color="inverse",
             )
