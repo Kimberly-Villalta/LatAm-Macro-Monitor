@@ -40,7 +40,7 @@ st.markdown(
 COUNTRIES = {
     "Brazil":   {"fx": "USDBRL=X", "equity": "^BVSP", "flag": "🇧🇷", "code": "BRL"},
     "Mexico":   {"fx": "MXN=X", "equity": "^MXX",  "flag": "🇲🇽", "code": "MXN"},
-    "Colombia": {"fx": "COP=X", "equity": None, "flag": "🇨🇴", "code": "COP"},,
+    "Colombia": {"fx": "COP=X", "equity": None, "flag": "🇨🇴", "code": "COP"},
     "Chile":    {"fx": "CLP=X", "equity": None,    "flag": "🇨🇱", "code": "CLP"},
 }
 
