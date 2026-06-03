@@ -40,8 +40,8 @@ st.markdown(
 COUNTRIES = {
     "Brazil":   {"fx": "USDBRL=X", "equity": "^BVSP", "flag": "🇧🇷", "code": "BRL"},
     "Mexico":   {"fx": "MXN=X", "equity": "^MXX",  "flag": "🇲🇽", "code": "MXN"},
-    "Colombia": {"fx": "COP=X", "equity": "^COLCAP", "flag": "🇨🇴", "code": "COP"},
-    "Chile":    {"fx": "CLP=X", "equity": "^IPSA",   "flag": "🇨🇱", "code": "CLP"},
+    "Colombia": {"fx": "COP=X", "equity": none, "flag": "🇨🇴", "code": "COP"},
+    "Chile":    {"fx": "CLP=X", "equity": none ,   "flag": "🇨🇱", "code": "CLP"},
 }
 
 # Export commodities that generate the region's dollars.
